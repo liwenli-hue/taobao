@@ -1,0 +1,340 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../font/iconfont.woff2') format('woff2'),
+      url('../font/iconfont.woff') format('woff'),
+      url('../font/iconfont.ttf') format('truetype'),
+      url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#orderMessage ul li{
+  float : left;
+  margin : 6px 10px ;
+  font-size : 12px;
+}
+#orderMessage .fr ul li{
+  content :'';
+  display : block;
+  clear : both;
+}
+#orderMessage .fr .mytaobao{
+  position : relative;
+}
+#orderMessage .fr ul{
+  position : absolute;
+  display : none;
+  margin-left : -10px;
+  margin-top : 0px;
+  z-index : 1000;
+}
+#orderMessage .fr ul li:hover{
+  background-color :#ccc;
+}
+#orderMessage a:hover{
+  color : #f40;
+}
+#orderMessage .fl img{
+  margin : 0 5px;
+}
+#orderMessage .fr img,#orderMessage .fr span{
+  margin : 0 5px;
+}
+#orderMessage ul li span {
+  font-size : 5px;
+}
+#orderMessage ul li img {
+ vertical-align : center;
+}
+
+#orderSearch .logo h1{
+  display: block;
+  background : url(../images/icons/taobao-icon.png) center no-repeat;
+  width : 190px;
+  height :58px;
+  text-indent : -99999px;
+  overflow : hidden;
+  margin-top : 40px;
+  margin-left : -225px;
+}
+#orderSearch .search form{
+  margin-top : -50px;
+}
+#orderSearch .search form input {
+  width : 400px;
+  height : 35px;
+  box-sizing : border-box;
+  border : 3px solid #ff5000;
+  font-size : 16px;
+  padding-left : 8px;
+  outline : none;
+}
+#orderSearch .search form button {
+  width : 90px;
+  height : 35px;
+  color : #fff;
+  background-color : #ff4400;
+  border : 0;
+  box-sizing : border-box;
+  margin-left : -1px;
+  cursor : pointer;
+}
+#orderTips{
+  width : 1190px;
+  height : 65px;
+  border-bottom : 1px solid #ccc;
+}
+#orderTips ul li{
+  float : left;
+  margin:30px 15px;
+  font-size : 17px;
+}
+#orderTips ul li p{
+  display : inline-block;
+}
+#orderTips .fl li span{
+  padding-left : 20px;
+  color : #ccc;
+  font-size : 14px;
+
+}
+#orderTips .fr li{
+  font-size : 13px;
+}
+#orderTips .fr li button {
+  width :60px;
+  height : 25px;
+  font-size : 14px;
+  background-color : #ccc;
+  cursor : not-allowed;
+}
+#orderTitle .fl{
+  margin-top : 20px;
+  margin-left : -380px;
+}
+#orderTitle .fr{
+  margin-top : 20px;
+  margin-right : -300px;
+}
+#orderTitle ul li {
+  float : left;
+}
+#orderTitle .fl li{
+  margin : 0 30px;
+  font-size : 10px;
+}
+#orderTitle .fl li input{
+  margin : 0 6px;
+}
+#orderTitle .fr li{
+  margin : 0 62px;
+  font-size : 10px;
+}
+#storeName{
+  margin : 80px 30px;
+}
+#storeName input { 
+ cursor : pointer;
+ }
+#storeName span {
+  font-size : 12px;
+  margin : 0 6px;
+  color : #000000;
+  cursor : pointer;
+}
+#storeName a{
+  font-size : 12px;
+  margin-left : 8px;
+  color : #3c3c3c;
+}
+#storeName a:hover{
+  color : #f40;
+  text-decoration : underline;
+}
+#goodsDetail{
+  position : relative;
+  width : 1190px;
+  height : 124px;
+  border : 1px solid #ccc;
+  margin-top : -70px;
+}
+#goodsDetail input {
+  margin : 20px 30px;
+}
+#goodsDetail ul li{
+  float : left;
+  margin : 0 20px;
+}
+#goodsDetail ul li .firstPic{
+  display : inline-block;
+  margin-top : -32px;
+  margin-left : 40px;
+}
+#goodsDetail ul li .firstA{
+  position : absolute;
+  display : inline-block;
+  font-size : 12px;
+  left :150px;
+  top : 20px;
+}
+#goodsDetail ul li .firstA:hover{
+  color : #f40;
+  text-decoration : underline;
+}
+#goodsDetail ul li .secondA{
+  position : absolute;
+  left : 150px;
+  top : 80px;
+}
+#goodsDetail ul li span{
+  position : absolute;
+  font-size : 12px;
+  color : #9c9c9c;
+  left : 400px;
+  top : 25px;
+}
+#goodsDetail ul .price{
+  position : absolute;
+  left : 600px;
+  top : 25px;
+}
+#goodsDetail ul .price .order{
+  font-size : 12px;
+  color : #9c9c9c;
+  text-decoration : line-through;
+}
+#goodsDetail ul .price .active{
+  font-size : 14px;
+  color : #000000;
+  font-weight : bold;
+}
+#goodsDetail ul .price .sale{
+  width : 87px;
+  height : 14px;
+  font-size : 15px;
+  color : #ff4400;
+  margin : 0 0 0 -10px;
+  padding : 0 17px 0 3px;
+  background: #FFF0E7;
+}
+#goodsDetail ul .price div p{
+  display : inline-block;
+  font-size : 12px;
+  color : #ff4400;
+}
+#goodsDetail ul .price .hide{
+  display :none;
+  width : 150px;
+  height : 50px;
+  line-height : 25px;
+  margin : 10px -5px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+#goodsDetail ul .price .hide div{
+    font-size : 12px;
+    white-space : nowrap;
+    color : #9c9c9c;
+    margin-left : 10px;
+}
+#goodsDetail ul .price .hide div p {
+  color : #9c9c9c;
+}
+#goodsDetail ul .count {
+  position : absolute;
+  left : 650px;
+  top : 10px;
+  margin-left : 100px;
+}
+#goodsDetail ul .count a {
+  width : 25px;
+  height : 25px;
+  font-size : 14px;
+  color : #444444;
+  background: #F0F0F0;
+}
+#goodsDetail ul .count input{
+  width : 41px;
+  height : 25px;
+  margin : 20px 0;
+  text-align : center;
+}
+#goodsDetail ul .total {
+  position : absolute;
+  left : 650px;
+  top : 30px;
+  margin-left : 250px;
+}
+#goodsDetail ul .total p{
+  color : #f40;
+  font-weight : bold;
+  font-size : 14px;
+}
+#goodsDetail ul .delate{
+  position : absolute;
+  top : 30px;
+  left : 1050px;
+}
+#goodsDetail ul .delate a{
+  font-size : 12px;
+}
+#goodsDetail ul .delate a:hover{
+  color : #f40;
+  text-decoration : underline;
+}
+.goodsDetail-checked{
+  background: #fff4e8;
+}
+#bottom{
+  position : fixed;
+  width : 1190px;
+  height : 50px;
+  background-color : #E5E5E5;
+  bottom : 0;
+  z-index : 1;
+  margin-top : 50px;
+  overflow : hidden;
+}
+#bottom ul li {
+  float: left;
+  font-size : 14px;
+  color :#000000;
+  margin : 0 20px;
+}
+#bottom .fl li{
+  cursor : pointer;
+}
+#bottom .fl li a:hover{
+  color : #f40;
+  text-decoration : underline;
+}
+#bottom .fr .checked{
+  cursor : pointer;
+}
+#bottom .fl li input{
+  margin-right : 8px;
+  cursor : pointer;
+}
+#bottom .fr li button {
+  width : 120px;
+  height : 50px;
+  font-size : 25px;
+  background : #AAAAAA;
+  color : #FFFFFF;
+  cursor: not-allowed;
+  right : 0;
+}
+#bottom .fr li strong{
+  color :#f40;
+  font-size : 25px;
+}
+#bottom .fr li span{
+  color :#f40;
+}

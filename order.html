@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+	<title>淘宝网-我的购物车</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/order.css">
+	<script src= "js/jquery.min.js"></script>
+	<script src= "js/order.js"></script>
+</head>
+
+<body>
+	<div class="layer">
+	<div id="orderMessage">
+		<ul class="fl">
+			<li><a href="#">Keith Chou</a></li>
+			<li><a href="#"><img src="images/icons/message.png" alt="">消息</a></li>
+			<li><a href="#">手机逛淘宝</a></li>
+		</ul>
+		<ul class="fr">
+			<li><a href="#" class= "c4">淘宝网首页</a></li>
+			<li>
+				<a href="#" class = "mytaobao">我的淘宝<span class = "iconfont">&#xe644;</span></a>
+				<ul class = "remove">
+					<li>已买到的宝贝</li>
+					<li>我的足迹</li>
+					<li>爱逛街</li>
+					<li>淘宝达人</li>
+					<li>新欢</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#"><img src="images/icons/star_gray.png" alt="">收藏夹</a><span class = "iconfont">&#xe644;</span>
+				<ul>
+					<li>收藏的宝贝</li>
+					<li>收藏的店铺</li>
+				</ul>
+				</li>
+			<li>
+				<a href="#">卖家中心</a><span class = "iconfont">&#xe644;</span>
+				<ul>
+					<li>已买到的宝贝</li>
+					<li>我的足迹</li>
+					<li>爱逛街</li>
+					<li>淘宝达人</li>
+					<li>新欢</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">联系客服</a><span class = "iconfont">&#xe644;</span>
+				<ul>
+					<li>收藏的宝贝</li>
+					<li>收藏的店铺</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div id="orderSearch">
+		<div class="logo clearfix">
+			<h1 class = "fl"><a href="#">淘宝网</a></h1>
+		</div>
+		<div class="search clearfix">
+			<form action="" class = "fr">
+				<input type="text" placeholder = "请输入内容"><button type = "submit">搜索</button>
+			</form>
+		</div>
+	</div>
+ <div id="orderTips">
+		<ul class = "fl">
+			<li class = "c4">全部商品<p>7</span><span>|</span></li>
+			<li>降价商品<p>0</p><span>|</span></li>
+			<li>库存紧张<p>0</p></li>
+		</ul>
+		<ul class="fr">
+			<li><p>已选商品（不含运费）</p></li>
+			<li class = "c4"><span>￥</span><p>0.00</p></li>
+			<li><button type = "submit">结算</button></li>
+		</ul>
+	</div>
+
+	<div id="orderTitle">
+		<ul class="fl">
+			<li> <input type="checkbox" class = "checkall">全选</li>
+			<li>商品信息</li>
+		</ul>
+		<ul class="fr">
+			<li>单价</li>
+			<li>数量</li>
+			<li>金额</li>
+			<li>操作</li>
+		</ul>
+	</div>
+
+	<div id="storeName">
+		<input type="checkbox" class = "j-checkbox"><span>店铺：</span>
+		<a href="#">生如海洋 men sho</a>
+	</div>
+
+	<div id="goodsDetail">
+		<input type="checkbox" class = "j-checkbox">
+		<ul>
+			<li>
+				<img src="images/icons/boyShoes.png" alt="" class = "firstPic"></img>
+			</li>
+			<li>
+				<a href="" class = "firstA">夏日拖鞋潮男韩版潮流男士一字拖<br>防滑凉鞋夏天个性沙滩潮拖凉拖男</a>
+				<a href="#" class = "secondA">
+				<img src="images/icons/bankCard.png" alt="支持信用卡支付">
+				<img src="images/icons/sevenDay.png" alt="七天无理由">
+				<img src="images/icons/guarantee.png" alt="消费者保障服务"></a>
+			</li>
+			<li>
+				<span>颜色分类：028黑蜂窝<br>尺码：41</span>
+			</li>
+			<li class = "price">
+				<p class = "order">￥79.00</p>
+				<p class = "active">￥49.00</p>
+				<div class = "sale">卖家促销<p class = "iconfont">&#xe644;</p></div>
+					<div class="hide">
+						<div>卖家促销：新品大特价</div>
+						<div>优惠: <p>￥</p>30</div>
+					</div>
+			</li>
+
+			<li class = "count">
+				<a href="javascript:;" class = "jian">-</a>
+				<input type="text" value = "1" class = "itext">
+				<a href="javascript:;" class = "jia">+</a>
+			</li>
+			<li class = "total">
+				<p class = "totalPrice">￥49.00</p>
+			</li>
+			<li class= "delate">
+				<a href="#">删除</a>
+			</li>
+		</ul>
+	</div>
+	<div id="storeName">
+		<input type="checkbox" class = "j-checkbox"><span>店铺：</span>
+		<a href="#">nixu服饰旗舰店</a>
+	</div>
+
+	<div id="goodsDetail">
+		<input type="checkbox" class = "j-checkbox">
+		<ul>
+			<li>
+				<img src="images/icons/fashionClo.png" alt="" class = "firstPic"></img>
+			</li>
+			<li>
+				<a href="" class = "firstA">韩版中长款纯色休闲青年风衣英伦<br>秋冬男毛呢料宽松外套时尚大衣</a>
+				<a href="#" class = "secondA">
+				<img src="images/icons/bankCard.png" alt="支持信用卡支付">
+				<img src="images/icons/sevenDay.png" alt="七天无理由">
+				<img src="images/icons/guarantee.png" alt="消费者保障服务"></a>
+			</li>
+			<li>
+				<span>颜色：卡其色有纽扣<br>尺码：L</span>
+			</li>
+			<li class = "price">
+				<p class = "order">￥416.00</p>
+				<p class = "active">￥208.00</p>
+				<div class = "sale">卖家促销<p class = "iconfont">&#xe644;</p></div>
+					<div class="hide">
+						<div>卖家促销：新品大特价</div>
+						<div>优惠: <p>￥</p>30</div>
+					</div>
+			</li>
+
+			<li class = "count">
+				<a href="javascript:;" class = "jian">-</a>
+				<input type="text" value = "1" class = "itext">
+				<a href="javascript:;" class = "jia">+</a>
+			</li>
+			<li class = "total">
+				<p class = "totalPrice">￥208.00</p>
+			</li>
+			<li class= "delate">
+				<a href="javascript:;" >删除</a>
+			</li>
+		</ul>
+	</div>
+	<div id="storeName">
+		<input type="checkbox" class = "j-checkbox"><span>店铺：</span>
+		<a href="#">李宁官方网店</a>
+	</div>
+
+	<div id="goodsDetail">
+		<input type="checkbox" class = "j-checkbox">
+		<ul>
+			<li>
+				<img src="images/icons/lining-bas.png" alt="" class = "firstPic"></img>
+			</li>
+			<li>
+				<a href="" class = "firstA">李宁2016新款男子篮球鞋音速3高<br>帮反弹篮球场地鞋ABAL031</a>
+				<a href="#" class = "secondA">
+				<img src="images/icons/bankCard.png" alt="支持信用卡支付">
+				<img src="images/icons/sevenDay.png" alt="七天无理由">
+				<img src="images/icons/guarantee.png" alt="消费者保障服务"></a>
+			</li>
+			<li>
+				<span>颜色分类：荧光果粉/木梅红<br>尺码：42</span>
+			</li>
+			<li class = "price">
+				<p class = "order">￥539.00</p>
+				<p class = "active">￥339.00</p>
+				<div class = "sale">卖家促销<p class = "iconfont">&#xe644;</p></div>
+					<div class="hide">
+						<div>卖家促销：新品大特价</div>
+						<div>优惠: <p>￥</p>30</div>
+					</div>
+			</li>
+
+			<li class = "count">
+				<a href="javascript:;" class = "jian">-</a>
+				<input type="text" value = "1" class = "itext">
+				<a href="javascript:;" class = "jia">+</a>
+			</li>
+			<li class = "total">
+				<p class = "totalPrice">￥339.00</p>
+			</li>
+			<li class= "delate">
+				<a href="#">删除</a>
+			</li>
+		</ul>
+	</div>
+	<div id="storeName">
+		<input type="checkbox" class = "j-checkbox"><span>店铺：</span>
+		<a href="#">adidas官方旗舰店</a>
+	</div>
+
+	<div id="goodsDetail">
+		<input type="checkbox" class = "j-checkbox">
+		<ul>
+			<li>
+				<img src="images/icons/adidas.png" alt="" class = "firstPic"></img>
+			</li>
+			<li>
+				<a href="" class = "firstA">adidas 阿迪达斯 篮球 男子 篮球鞋<br>Regulat</a>
+				<a href="#" class = "secondA">
+				<img src="images/icons/bankCard.png" alt="支持信用卡支付">
+				<img src="images/icons/sevenDay.png" alt="七天无理由">
+				<img src="images/icons/guarantee.png" alt="消费者保障服务"></a>
+			</li>
+			<li>
+				<span>颜色分类：银金属/深藏青<br>蓝/红色<br>尺码：43.5</span>
+			</li>
+			<li class = "price">
+				<p class = "active">￥419.00</p>
+			</li>
+
+			<li class = "count">
+				<a href="javascript:;" class = "jian">-</a>
+				<input type="text" value = "1" class = "itext">
+				<a href="javascript:;" class = "jia">+</a>
+			</li>
+			<li class = "total">
+				<p class = "totalPrice">￥419.00</p>
+			</li>
+			<li class= "delate">
+				<a href="#">删除</a>
+			</li>
+		</ul>
+	</div>
+	<div id="storeName">
+		<input type="checkbox" class = "j-checkbox"><span>店铺：</span>
+		<a href="#">NIKE官方旗舰店</a>
+	</div>
+
+	<div id="goodsDetail">
+		<input type="checkbox" class = "j-checkbox">
+		<ul>
+			<li>
+				<img src="images/icons/nike.png" alt="" class = "firstPic"></img>
+			</li>
+			<li>
+				<a href="" class = "firstA">Nike 耐克官方 ZOOM KOBE <br>VENOMENON 5 EP 男子篮球鞋</a>
+				<a href="#" class = "secondA">
+				<img src="images/icons/bankCard.png" alt="支持信用卡支付">
+				<img src="images/icons/sevenDay.png" alt="七天无理由">
+				<img src="images/icons/guarantee.png" alt="消费者保障服务"></a>
+			</li>
+			<li>
+				<span>颜色分类：氯蓝/鲜红橙/煤<br>黑/白/冷灰黑<br>尺码：42.5</span>
+			</li>
+			<li class = "price">
+				<p class = "active">￥949.00</p>
+			</li>
+
+			<li class = "count">
+				<a href="javascript:;" class = "jian">-</a>
+				<input type="text" value = "1" class = "itext">
+				<a href="javascript:;" class = "jia">+</a>
+			</li>
+			<li class = "total">
+				<p class = "totalPrice">￥949.00</p>
+			</li>
+			<li class= "delate">
+				<a href="#">删除</a>
+			</li>
+		</ul>
+	</div>
+	<div id="storeName">
+		<input type="checkbox" class = "j-checkbox"><span>店铺：</span>
+		<a href="#">zsuo走索旗舰店</a>
+	</div>
+
+	<div id="goodsDetail">
+		<input type="checkbox" class = "j-checkbox">
+		<ul>
+			<li>
+				<img src="images/icons/xuezi.png" alt="" class = "firstPic"></img>
+			</li>
+			<li>
+				<a href="" class = "firstA">Z．Suo/走索男鞋马丁靴男秋冬户外<br>靴子沙漠靴男军靴皮靴情侣款潮</a>
+				<a href="#" class = "secondA">
+				<img src="images/icons/bankCard.png" alt="支持信用卡支付">
+				<img src="images/icons/sevenDay.png" alt="七天无理由">
+				<img src="images/icons/guarantee.png" alt="消费者保障服务"></a>
+			</li>
+			<li>
+				<span>颜色分类：ZS988H黑色<br>尺码：42</span>
+			</li>
+			<li class = "price">
+				<p class = "order">￥452.00</p>
+				<p class = "active">￥339.00</p>
+				<div class = "sale">卖家促销<p class = "iconfont">&#xe644;</p></div>
+					<div class="hide">
+						<div>卖家促销：新品大特价</div>
+						<div>优惠: <p>￥</p>30</div>
+					</div>
+			</li>
+
+			<li class = "count">
+				<a href="javascript:;" class = "jian">-</a>
+				<input type="text" value = "1" class = "itext">
+				<a href="javascript:;" class = "jia">+</a>
+			</li>
+			<li class = "total">
+				<p class = "totalPrice">￥339.00</p>
+			</li>
+			<li class= "delate">
+				<a href="#">删除</a>
+			</li>
+		</ul>
+	</div>
+	<div id="storeName">
+		<input type="checkbox" class = "j-checkbox"><span>店铺：</span>
+		<a href="#">张君雅小妹妹旗舰</a>
+	</div>
+
+	<div id="goodsDetail">
+		<input type="checkbox" class = "j-checkbox">
+		<ul>
+			<li>
+				<img src="images/icons/zhangjunyameimei.png" alt="" class = "firstPic"></img>
+			</li>
+			<li>
+				<a href="" class = "firstA">台湾进口零食张君雅小妹妹12包零食<br>组合甜甜圈捏脆面点心面礼包</a>
+				<a href="#" class = "secondA">
+				<img src="images/icons/bankCard.png" alt="支持信用卡支付">
+				<img src="images/icons/sevenDay.png" alt="七天无理由">
+				<img src="images/icons/guarantee.png" alt="消费者保障服务"></a>
+			</li>
+			<li>
+				<span>口味：12包零食组合</span>
+			</li>
+			<li class = "price">
+				<p class = "order">￥79.00</p>
+				<p class = "active">￥39.00</p>
+				<div class = "sale">卖家促销<p class = "iconfont">&#xe644;</p></div>
+					<div class="hide">
+						<div>卖家促销：新品大特价</div>
+						<div>优惠: <p>￥</p>30</div>
+					</div>
+			</li>
+
+			<li class = "count">
+				<a href="javascript:;" class = "jian">-</a>
+				<input type="text" value = "1" class = "itext">
+				<a href="javascript:;" class = "jia">+</a>
+			</li>
+			<li class = "total">
+				<p class = "totalPrice">￥39.00</p>
+			</li>
+			<li class= "delate">
+				<a href="#">删除</a>
+			</li>
+		</ul>
+	</div>
+	<div id="bottom">
+		<ul class="fl">
+			<li><input type="checkbox" class = "checkall">全选</li>
+			<li><a href="#" class = "bottomDelate">删除</a></li>
+			<li><a href="#">移入收藏夹</a></li>
+			<li><a href="#">分享</a></li>
+		</ul>
+		<ul class="fr">
+			<li class = "checked">已选商品<strong class = "countC">0</strong>件</li>
+			<li>合计（不含运费）：<span>￥</span><strong class = "money">0.00</strong></li>
+			<li><button>结算</button></li>
+		</ul>
+	</div>
+	</div>
+</body>
+</html>
